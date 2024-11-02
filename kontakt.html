@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kontakt - Fabrika bojlera Micic">
+    <title>Kontakt - Fabrika bojlera Micic</title>
+   <body></body>
+    <div class="wrapper">
+        <div class="header">
+            <h1>Kontakt</h1>
+        </div>
+
+        <div class="nav">
+            <a href="index.html">Naslovna strana</a>
+            <a href="onama.html">O nama</a>
+            
+        </div>
+
+        <div class="content">
+            <h2>Kontaktirajte nas</h2>
+            <p>Adresa: Ulica Vuka Karadzica, 31210</p>
+            <p>Telefon: +381 65 123 456</p>
+            <p>Email: <a href="mailto:kontakt@micic.rs">kontakt@micic.rs</a></p>
+        </div>
+
+        <footer>
+            <p></p>
+            <div class="footer-bottom">
+                Fabrika bojlera Micic
+            </div>
+        </footer>
+        <button class="btn" onclick="toggleForm()">Poruči</button>
+
+            <div class="order-form" id="orderForm">
+                <h2>Podaci</h2>
+                <input type="text" placeholder="Ime i prezime" required>
+                <input type="text" placeholder="Broj telefona" required>
+                <input type="text" placeholder="Adresa" required>
+                <input type="text" placeholder="Grad" required>
+                <input type="text" placeholder="Poštanski broj" required>
+                <input type="text" placeholder="Proizvod" required>
+                <button class="btn" onclick="submitOrder()">Pošalji</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleForm() {
+            const form = document.getElementById('orderForm');
+            form.style.display = form.style.display === 'none' ? 'block' : 'none';
+        }
+
+        function submitOrder() {
+            alert('Porudžbina je uspešno poslata!');
+        }
+    </script>
+</body>
+</html>
+ </div>
