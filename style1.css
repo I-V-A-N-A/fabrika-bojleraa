@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; 
+    color: #333;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #0056b3; 
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.nav a {
+    color: #0056b3;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    background-color: #ffe4e1; 
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    color: #0056b3;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.content a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+.footer-bottom {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #003d80;
+}
+
+.order-form {
+    display: none; 
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.order-form.show {
+    display: block; 
+}
+
+.order-form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.order-form .btn {
+    width: 100%;
+}
